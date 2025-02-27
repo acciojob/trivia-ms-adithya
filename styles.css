@@ -1,2 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 20px;
+}
 
-/* Your CSS Code here. */
+.quiz-container {
+    background: white;
+    padding: 20px;
+    max-width: 500px;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+}
+
+label {
+    font-size: 16px;
+    display: block;
+    margin: 10px 0;
+}
+
+input[type="radio"] {
+    margin-right: 8px;
+}
+
+.quote {
+    max-width: 600px;
+    margin: 10px auto;
+    padding: 15px;
+    border-left: 8px solid green;
+    background-color: #f8fffe;
+    font-weight: bold;
+}
